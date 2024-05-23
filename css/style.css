@@ -164,8 +164,8 @@ nav a:hover {
 
 .item img {
     border-radius: 38px;
-    width: 376px;
-    height: 276px;
+    /* width: 376px;
+    height: 276px; */
 }
 
 .details_and_price{

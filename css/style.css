@@ -233,3 +233,93 @@ nav a:hover {
     width: 63px;
     cursor: pointer;
 }
+
+footer {
+    background-color:#EFECFF;
+    padding-top: 32px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.who_we_are {
+    display: flex;
+    flex-direction: column;
+}
+
+.who_we_are h3 {
+    color: #333;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.who_we_are a {
+    color: #333;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.follow_us {
+    display: flex;
+    flex-direction: column;
+}
+
+.follow_us h3 {
+    color: #333;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.follow_us a {
+    color: #333;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+footer > div {
+    display: flex;
+    gap: 150px;
+    margin-left: 32px;
+}
+
+.social_media_links{
+    display: flex;
+    margin: 16px 0 16px 32px;
+    gap: 24.38px;
+}
+
+.social_media_links a {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.copyright {
+    color: #333;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 32px;
+    padding-bottom: 51px;
+}
